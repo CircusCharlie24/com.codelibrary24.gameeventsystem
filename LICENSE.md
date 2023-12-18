@@ -1,23 +1,21 @@
-# [Your Package Name] License
+MIT License
 
-This Unity package, including all associated files and documentation, is the proprietary and confidential property of [Your Name or Organization].
+Copyright (c) 2023 CircusCharlie
 
-## Terms of Use
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-1. **Private Use Only:** This package is provided for private use only. You are not allowed to distribute, share, or make this package public in any form.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-2. **No Modification or Redistribution:** You are not permitted to modify, reverse engineer, decompile, or distribute this package in any way.
-
-3. **No Commercial Use:** The use of this package for commercial purposes, including but not limited to resale, distribution, or incorporation into a commercial product, is strictly prohibited.
-
-4. **No Support:** There is no obligation for the author to provide support, maintenance, or updates to this package.
-
-5. **No Warranty:** This package is provided "as is" and without any warranty. The author is not liable for any damages or issues arising from the use of this package.
-
-## Contact Information
-
-For inquiries regarding the use of this package, please contact [Your Contact Information].
-
-## Acceptance of Terms
-
-By using this Unity package, you acknowledge that you have read, understood, and agreed to the terms and conditions outlined in this license.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

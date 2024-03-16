@@ -1,5 +1,5 @@
 {
-    "name": "CodeLibrary24.GameEventSystem",
+    "name": "com.codelibrary24.gameeventsystem",
     "rootNamespace": "CodeLibrary24.GameEventSystem",
     "references": [],
     "includePlatforms": [],

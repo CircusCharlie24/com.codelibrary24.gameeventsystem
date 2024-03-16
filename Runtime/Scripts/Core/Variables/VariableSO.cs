@@ -6,6 +6,9 @@ namespace CodeLibrary24.GameEventSystem
     public class VariableSO<T> : ScriptableObject, ISerializationCallbackReceiver
     {
         [SerializeField]
+        private T runtimeValue;
+
+        [SerializeField]
         private T value;
 
         [FormerlySerializedAs("constant")]
@@ -16,11 +19,10 @@ namespace CodeLibrary24.GameEventSystem
         [SerializeField]
         private bool applyRuntimeValue;
 
-        private T _runtimeValue;
 
         public T GetValue()
         {
-            return _runtimeValue;
+            return runtimeValue;
         }
 
         public void SetValue(T newValue)
@@ -31,10 +33,10 @@ namespace CodeLibrary24.GameEventSystem
                 return;
             }
 
-            _runtimeValue = newValue;
+            runtimeValue = newValue;
             if (applyRuntimeValue)
             {
-                value = _runtimeValue;
+                value = runtimeValue;
             }
         }
 
@@ -44,7 +46,7 @@ namespace CodeLibrary24.GameEventSystem
 
         public void OnAfterDeserialize()
         {
-            _runtimeValue = value;
+            runtimeValue = value;
         }
     }
 }

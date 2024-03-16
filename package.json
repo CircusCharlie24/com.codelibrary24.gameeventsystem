@@ -1,27 +1,27 @@
 {
-    "name": "com.codelibrary24.gameeventsystem",
-    "version": "1.0.3",
-    "displayName": "Game Event System",
-    "description": "An event system package based upon the scriptable object architecture. The scriptable objects are used as Events and Variables.",
-    "unity": "2022.1",
-    "documentationUrl": "https://ambargames.com/",
-    "changelogUrl": "https://ambargames.com/changelog.html",
-    "licensesUrl": "https://ambargames/licensing.html",
-    "keywords": [
-        "Events",
-        "Game events",
-        "Scriptable objects"
-    ],
-    "samples": [
-        {
-            "displayName": "Game Events",
-            "description": "This contains some variables and game events",
-            "path": "Samples~/GameEventSystem"
-        }
-    ],
-    "author": {
-        "name": "CircusCharlie",
-        "email": "circuscharlie2428@gmail.com",
-        "url": "https://www.ambargames.com"
+  "name": "com.codelibrary24.gameeventsystem",
+  "version": "1.0.4",
+  "displayName": "Game Event System",
+  "description": "An event system package based upon the scriptable object architecture. The scriptable objects are used as Events and Variables.",
+  "unity": "2022.1",
+  "documentationUrl": "https://ambargames.com/",
+  "changelogUrl": "https://ambargames.com/changelog.html",
+  "licensesUrl": "https://ambargames/licensing.html",
+  "keywords": [
+    "Events",
+    "Game events",
+    "Scriptable objects"
+  ],
+  "samples": [
+    {
+      "displayName": "Game Events",
+      "description": "This contains some variables and game events",
+      "path": "Samples~/GameEventSystem"
     }
+  ],
+  "author": {
+    "name": "CircusCharlie",
+    "email": "circuscharlie2428@gmail.com",
+    "url": "https://www.ambargames.com"
+  }
 }

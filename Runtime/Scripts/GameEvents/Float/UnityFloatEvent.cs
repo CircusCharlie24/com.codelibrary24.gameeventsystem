@@ -2,7 +2,5 @@
 
 namespace CodeLibrary24.GameEventSystem
 {
-    public class UnityFloatEvent : UnityEvent<float>
-    {
-    }
+    public class UnityFloatEvent : UnityEvent<float> { }
 }

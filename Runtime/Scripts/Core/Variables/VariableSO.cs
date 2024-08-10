@@ -19,7 +19,6 @@ namespace CodeLibrary24.GameEventSystem
         [SerializeField]
         private bool applyRuntimeValue;
 
-
         public T GetValue()
         {
             return runtimeValue;
@@ -40,9 +39,7 @@ namespace CodeLibrary24.GameEventSystem
             }
         }
 
-        public void OnBeforeSerialize()
-        {
-        }
+        public void OnBeforeSerialize() { }
 
         public void OnAfterDeserialize()
         {

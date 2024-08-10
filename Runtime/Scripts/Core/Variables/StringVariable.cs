@@ -2,8 +2,10 @@
 
 namespace CodeLibrary24.GameEventSystem
 {
-    [CreateAssetMenu(menuName = "CodeLibrary24/GameEventSystem/Variable/String", fileName = "StringVariable", order = 0)]
-    public class StringVariable : VariableSO<string>
-    {
-    }
+    [CreateAssetMenu(
+        menuName = ContextMenuConstants.VARIABLE + nameof(StringVariable),
+        fileName = nameof(StringVariable),
+        order = 0
+    )]
+    public class StringVariable : VariableSO<string> { }
 }

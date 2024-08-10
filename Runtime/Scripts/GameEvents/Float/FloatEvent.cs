@@ -1,7 +1,12 @@
 using CodeLibrary24.GameEventSystem;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "CodeLibrary24/GameEventSystem/Event/Float", fileName = "FloatGameEvent")]
-public class FloatEvent : GameEvent<float>
+namespace CodeLibrary24.GameEventSystem
 {
+    [CreateAssetMenu(
+        menuName = ContextMenuConstants.EVENT + nameof(FloatEvent),
+        fileName = nameof(FloatEvent),
+        order = 0
+    )]
+    public class FloatEvent : GameEvent<float> { }
 }

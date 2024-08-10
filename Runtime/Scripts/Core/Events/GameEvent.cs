@@ -1,15 +1,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
 namespace CodeLibrary24.GameEventSystem
 {
-    public abstract class GameEvent<T> : ScriptableObject 
+    public abstract class GameEvent<T> : ScriptableObject
     {
-        [SerializeField] private string tag;
-        [SerializeField][TextArea] private string description;
+        [SerializeField]
+        private string tag;
 
-        private readonly List<IGameEventListener<T>> eventListeners = new List<IGameEventListener<T>>();
+        [SerializeField]
+        [TextArea]
+        private string description;
+
+        private readonly List<IGameEventListener<T>> eventListeners =
+            new List<IGameEventListener<T>>();
 
         public void Invoke(T data)
         {

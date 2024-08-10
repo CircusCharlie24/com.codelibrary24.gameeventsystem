@@ -1,6 +1,6 @@
 {
   "name": "com.codelibrary24.gameeventsystem",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "displayName": "Game Event System",
   "description": "An event system package based upon the scriptable object architecture. The scriptable objects are used as Events and Variables.",
   "unity": "2022.1",
